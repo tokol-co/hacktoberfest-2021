@@ -12,3 +12,15 @@ export const ProfileImg = styled.img`
   width: 200px;
   border-radius: 50%;
 `;
+
+export const Title = styled.a`
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+
+  :hover {
+    transition: 0.3s;
+    color: #677662;
+  }
+`;
