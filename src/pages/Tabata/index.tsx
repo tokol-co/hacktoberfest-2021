@@ -3,6 +3,7 @@ import Header from '../../components/Header';
 import {
   Container,
   ProfileImg,
+  Title,
 } from './styles';
 
 const Tabata = () => {
@@ -10,9 +11,7 @@ const Tabata = () => {
     <Container>
       <Header />
       <ProfileImg src="https://avatars.githubusercontent.com/u/43206830?v=4" alt="Tábata's photo" />
-      <h2>
-        Tábata
-      </h2>
+      <Title href="https://github.com/tabaesso" target="_blank">Tábata Baesso</Title>
     </Container>
   )
 }
