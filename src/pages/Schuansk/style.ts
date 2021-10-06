@@ -30,7 +30,7 @@ export const Profile = styled.header`
     transition: all .2s;
 
     &:hover {
-      color: #F74700;
+      color: #677662;
     }
   }
 `;
@@ -60,3 +60,14 @@ export const Section = styled.section`
     }
   }
 `
+
+export const Footer = styled.footer`
+  margin-top: 10px;
+  
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+`;
