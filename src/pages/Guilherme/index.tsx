@@ -12,10 +12,15 @@ const Guilherme = () => {
   return (
     <Container>
       <Header />
-      <ProfileImg src="https://avatars.githubusercontent.com/u/47790486?v=4" alt="Guilherme's photo" />
-      <h2>
+      <Title href="https://github.com/yu-gui-oh" target="_blank">
+        <ProfileImg src="https://avatars.githubusercontent.com/u/47790486?v=4" alt="Guilherme's photo" />
+      </Title>
+      <Title href="https://github.com/yu-gui-oh" target="_blank">
         Guilherme Santos
-      </h2>
+      </Title>
+      <Subtitle>
+        Web developer | Node.js, React.js and React Native
+      </Subtitle>
     </Container>
   )
 }
