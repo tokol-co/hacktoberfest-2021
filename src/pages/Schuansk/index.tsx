@@ -2,10 +2,14 @@ import React from 'react';
 
 import Header from '../../components/Header';
 
+import Github from '../../assets/github.png';
+import Instagram from '../../assets/instagram.png';
+
 import {
   Container,
   Profile,
   Section,
+  Footer,
 } from './style';
 
 const Schuansk = () => {
@@ -29,6 +33,20 @@ const Schuansk = () => {
           </article>
         </Section>
       </main>
+      <Footer>
+        <ul>
+          <li>
+            <a href="https://github.com/schuansk" target="_blank">
+              <img src={Github} alt="Github" />
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/schuansk/" target="_blank">
+              <img src={Instagram} alt="Instagram" />
+            </a>
+          </li>
+        </ul>
+      </Footer>
     </Container>
   )
 }

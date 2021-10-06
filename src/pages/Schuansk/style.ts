@@ -16,7 +16,8 @@ export const Profile = styled.header`
   img {
     width: 200px;
     border-radius: 100px;
-    border: 2px solid #F74700;
+    -webkit-box-shadow: -10px 10px 0px 0px #F74700, 10px -10px 0px 0px #677662; 
+    box-shadow: -10px 10px 0px 0px #F74700, 10px -10px 0px 0px #677662;
   }
 
   a {
@@ -29,7 +30,7 @@ export const Profile = styled.header`
     transition: all .2s;
 
     &:hover {
-      color: #F74700;
+      color: #677662;
     }
   }
 `;
@@ -59,3 +60,14 @@ export const Section = styled.section`
     }
   }
 `
+
+export const Footer = styled.footer`
+  margin-top: 10px;
+  
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+`;
