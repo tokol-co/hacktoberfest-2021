@@ -1,10 +1,12 @@
 import React from 'react';
 
+import Header from '../../components/Header';
+
 const Schuansk = () => {
   return (
-    <h2>
-      Schuansk
-    </h2>
+    <>
+      <Header />
+    </>
   )
 }
 
