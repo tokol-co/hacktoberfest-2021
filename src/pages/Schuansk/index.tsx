@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import {
   Container,
   Profile,
+  Section,
 } from './style';
 
 const Schuansk = () => {
@@ -16,7 +17,7 @@ const Schuansk = () => {
         <a href="https://github.com/schuansk" target="_blank">Schuansk Torres</a>
       </Profile>
       <main>
-        <section>
+        <Section>
           <header>
             <p>Web developer | NodeJS | ReactJS </p>
           </header>
@@ -26,7 +27,7 @@ const Schuansk = () => {
             <p>I think no matter what our pace, what we can't do is stop, so we're going to keep coding and improving every day.</p>
             <p>Let's go 🚀.</p>
           </article>
-        </section>
+        </Section>
       </main>
     </Container>
   )
