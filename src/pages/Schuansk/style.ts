@@ -16,7 +16,8 @@ export const Profile = styled.header`
   img {
     width: 200px;
     border-radius: 100px;
-    border: 2px solid #F74700;
+    -webkit-box-shadow: -10px 10px 0px 0px #F74700, 10px -10px 0px 0px #677662; 
+    box-shadow: -10px 10px 0px 0px #F74700, 10px -10px 0px 0px #677662;
   }
 
   a {
