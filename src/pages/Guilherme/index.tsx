@@ -1,4 +1,6 @@
+import React from 'react';
 import Header from '../../components/Header';
+import Truman from '../../assets/truman.gif';
 
 import {
   Container,
@@ -9,11 +11,17 @@ import {
 } from './styles';
 
 const Guilherme = () => {
+  const [easterEgg, SetEasterEgg] = React.useState(false);
   return (
     <Container>
       <Header />
       <Title href="https://github.com/yu-gui-oh" target="_blank">
-        <ProfileImg src="https://avatars.githubusercontent.com/u/47790486?v=4" alt="Guilherme's photo" />
+        {
+          easterEgg === false ?
+            <ProfileImg src="https://avatars.githubusercontent.com/u/47790486?v=4" alt="Guilherme's photo" />
+          :
+            <ProfileImg src={Truman} alt="Thank you" />
+        }
       </Title>
       <Title href="https://github.com/yu-gui-oh" target="_blank">
         Guilherme Santos
@@ -37,7 +45,7 @@ const Guilherme = () => {
           is to one day learn more about game development and create a game of my own. I hope to get there
           someday.
         </p>
-        <Subtitle>
+        <Subtitle onClick={() => SetEasterEgg(true)}>
           "Good morning, and in case I don't see ya, good afternoon, good evening, and good night." - Truman Burbank
         </Subtitle>
       </Content>
