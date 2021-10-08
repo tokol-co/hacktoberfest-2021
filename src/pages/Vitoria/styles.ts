@@ -32,3 +32,24 @@ export const Subtitle = styled.div`
   font-size: 1.1rem;
   color: #F74700;
 `;
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  width: 500px;
+  padding: 20px;
+
+  h2 {
+    margin: 10px 0;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+
+  :hover {
+    transition: 0.3s;
+    color: #677662;
+  }
+`;
