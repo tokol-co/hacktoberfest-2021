@@ -13,9 +13,11 @@ const Vitoria = () => {
   return (
     <Container>
       <Header />
-      <ProfileImg src="https://avatars.githubusercontent.com/u/47597666?s=400&u=bd9fbb4223cfc244dfc510372a49d22df50d4c66&v=4" alt="Tábata's photo" />
+      <ProfileImg> 
+        <img src="https://avatars.githubusercontent.com/u/47597666?s=400&u=bd9fbb4223cfc244dfc510372a49d22df50d4c66&v=4" alt="Vitoria photo" />
+      </ProfileImg>
       <Title href="https://github.com/VitoriaVidal" target="_blank"> Vitória Vidal</Title>
-      <Subtitle>Web developer apprendice| Node.js  React.js</Subtitle>
+      <Subtitle>Web developer apprendice | Node.js and React.js</Subtitle>
       <Content>
         <p>Hello world 👋 </p>
         <p>I'm a semi-graduated girl, looking for an internship so I can really graduate in Information Technology Management.</p>

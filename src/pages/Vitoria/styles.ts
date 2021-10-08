@@ -7,11 +7,32 @@ export const Container = styled.div`
   align-items: center;
 `;
 
-export const ProfileImg = styled.img`
-  margin: 20px 0;
+export const ProfileImg = styled.head`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+img {
   width: 200px;
-  border: 2px solid #F74700;
-  border-radius: 50%;
+  border-radius: 100px;
+  -webkit-box-shadow: -10px 10px 0px 0px #F74700, 10px -10px 0px 0px #677662; 
+  box-shadow: -10px 10px 0px 0px #F74700, 10px -10px 0px 0px #677662;
+}
+
+a {
+  margin-top: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 26pt;
+  font-weight: bold;
+
+  transition: all .2s;
+
+  &:hover {
+    color: #677662;
+  }
+}
 `;
 
 export const Title = styled.a`
@@ -34,6 +55,7 @@ export const Subtitle = styled.div`
 `;
 
 export const Content = styled.div`
+  justify-content: center;
   display: flex;
   flex-direction: column;
   font-size: 1.1rem;
@@ -48,8 +70,5 @@ export const Content = styled.div`
     margin: 5px 0;
   }
 
-  :hover {
-    transition: 0.3s;
-    color: #677662;
-  }
+
 `;
